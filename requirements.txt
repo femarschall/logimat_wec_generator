@@ -1,0 +1,7 @@
+PyQt6>=6.0.0
+pyodbc>=4.0.0
+Pillow>=8.0.0
+
+# Optional Oracle support (choose one):
+# cx-Oracle>=8.0.0        # Requires Oracle Instant Client
+# oracledb>=1.0.0         # Thin mode, no Instant Client needed

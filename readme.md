@@ -4,9 +4,27 @@
 
 # 📦 **Logimat WEC JSON Generator**
 
-A cross‑platform **PySide6 desktop application** for generating **WEC Simulation JSON files** for **Kardex / SSI Schaefer Logimat** systems based on production **WAMAS** database tables.
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![PyQt6](https://img.shields.io/badge/PyQt6-6.0+-green.svg)](https://pypi.org/project/PyQt6/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+A cross‑platform **PyQt6 desktop application** for generating **WEC Simulation JSON files** for **Kardex / SSI Schaefer Logimat** systems based on production **WAMAS** database tables.
 
 This tool connects to **MSSQL** or **Oracle**, retrieves all Logimat‑related master data, applies all business rules defined by your operational requirements, and outputs a **fully valid WEC JSON configuration** matching the structure used in _logimat_pbl.json_.
+
+## 📋 Table of Contents
+
+- [🚀 Features](#-features)
+- [🗂 Project Structure](#-project-structure)
+- [🛠 Requirements](#-requirements)
+- [▶️ How to Run](#️-how-to-run)
+- [📘 JSON Generation Rules](#-json-generation-rules-business-logic-summary)
+- [⚙️ Optional Oracle Support](#️-optional-oracle-support)
+- [📦 Packaging (PyInstaller)](#-packaging-pyinstaller)
+- [🧪 Validation Checklist](#-validation-checklist)
+- [📝 Architecture Explanation](#-explanation-of-the-architecture)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ----------
 
@@ -446,7 +464,43 @@ MainWindow->>User: JSON Ready ✔
 
 Note right of User: User now imports JSON<br/>into WEC Simulation
 ```
-----------
-# 📝 License
+
+## 🤝 Contributing
+
+We welcome contributions! Please follow these steps:
+
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
+3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. **Push** to the branch (`git push origin feature/amazing-feature`)
+5. **Open** a Pull Request
+
+### Development Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/femarschall/logimat_wec_generator.git
+cd logimat_wec_generator
+
+# Create virtual environment
+python -m venv venv
+venv\Scripts\activate  # Windows
+# source venv/bin/activate  # Linux/Mac
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+python main.py
+```
+
+### Code Style
+
+- Follow PEP 8 guidelines
+- Use descriptive variable and function names
+- Add docstrings to functions and classes
+- Write unit tests for new features
+
+## 📄 License
 
 Internal custom tool
