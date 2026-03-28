@@ -1,0 +1,236 @@
+{
+    "com.ssn.simulation.core.Core": {
+        "entities": [
+            {
+                "com.ssn.simulation.entities.Logimat": {
+                    "id": "A1",
+                    "posx": -5,
+                    "posy": -58.5,
+                    "sizex": 3.0,
+                    "sizey": 200.0,
+                    "sizez": 1.0,
+                    "transparent": false,
+                    "lastUpdate": 0,
+                    "senderId": null,
+                    "receiverId": null,
+                    "senderPort": null,
+                    "receiverPort": null,
+                    "supportDistance": 125,
+                    "openingSupportDistance": 50,
+                    "openingHeight": 1000,
+                    "supportsFront": 1000,
+                    "supportsRear": 1000,
+                    "maximumHeight": 600,
+                    "maximumWeight": 600,
+                    "horizontalSpeed": 100,
+                    "verticalSpeed": 100,
+                    "horizontalAcceleration": 100,
+                    "verticalAcceleration": 100,
+                    "horizontalDeceleration": 100,
+                    "verticalDeceleration": 100,
+                    "globalSpeedSetting": 100,
+                    "plcId": 1,
+                    "trays": [],
+                    "openings": []
+                }
+            },
+            {
+                "com.ssn.simulation.entities.Logimat": {
+                    "id": "B1",
+                    "posx": -2,
+                    "posy": -58.5,
+                    "sizex": 3.0,
+                    "sizey": 200.0,
+                    "sizez": 1.0,
+                    "transparent": false,
+                    "lastUpdate": 0,
+                    "senderId": null,
+                    "receiverId": null,
+                    "senderPort": null,
+                    "receiverPort": null,
+                    "supportDistance": 125,
+                    "openingSupportDistance": 50,
+                    "openingHeight": 1000,
+                    "supportsFront": 1000,
+                    "supportsRear": 1000,
+                    "maximumHeight": 600,
+                    "maximumWeight": 600,
+                    "horizontalSpeed": 100,
+                    "verticalSpeed": 100,
+                    "horizontalAcceleration": 100,
+                    "verticalAcceleration": 100,
+                    "horizontalDeceleration": 100,
+                    "verticalDeceleration": 100,
+                    "globalSpeedSetting": 100,
+                    "plcId": 2,
+                    "trays": [],
+                    "openings": []
+                }
+            }
+        ],
+        "gridSizeX": 0.0,
+        "gridSizeY": 0.0,
+        "snapToGrid": true,
+        "snapSizeX": 0.1,
+        "snapSizeY": 0.1,
+        "dockingDistance": 0.1,
+        "resizeHandles": false,
+        "connectionView": 0,
+        "shadowView": 0,
+        "detailsScale": 50.0,
+        "connectionDetailsScale": 25.0,
+        "showShadowConnections": false,
+        "showDataTrackingConnections": false,
+        "autoValidation": "HIGH",
+        "showItemDetails": false,
+        "showLastError": false,
+        "repaintDirty": false,
+        "reactionDelay": 25,
+        "repaintDelay": 25,
+        "randomColors": true,
+        "wireFrame": false,
+        "visuMode": false,
+        "logLevel": 0,
+        "logLongEventHandling": 0,
+        "exitQuery": false,
+        "saveRuntimeStateOnExit": false,
+        "saveOpenRuntimeWindows": false,
+        "backgroundColor": {
+            "java.awt.Color": {
+                "value": -1
+            }
+        },
+        "gridColor": {
+            "java.awt.Color": {
+                "value": -4144960
+            }
+        },
+        "connectionColor": {
+            "java.awt.Color": {
+                "value": -8355712
+            }
+        },
+        "jumpConnectionColor": {
+            "java.awt.Color": {
+                "value": -10255680
+            }
+        },
+        "headSelectionLineColor": {
+            "java.awt.Color": {
+                "value": -16777216
+            }
+        },
+        "headSelectionFillColor": {
+            "java.awt.Color": {
+                "value": -3613198
+            }
+        },
+        "tailSelectionLineColor": {
+            "java.awt.Color": {
+                "value": -16777216
+            }
+        },
+        "tailSelectionFillColor": {
+            "java.awt.Color": {
+                "value": -10255680
+            }
+        },
+        "fillSelectedEntities": false,
+        "gridSelectionColor": {
+            "java.awt.Color": {
+                "value": -16777216
+            }
+        },
+        "entityLineColor": {
+            "java.awt.Color": {
+                "value": -16777216
+            }
+        },
+        "entityIdleColor": {
+            "java.awt.Color": {
+                "value": -1
+            }
+        },
+        "entityErrorColor": {
+            "java.awt.Color": {
+                "value": -65536
+            }
+        },
+        "entityBusyColor": {
+            "java.awt.Color": {
+                "value": -16744193
+            }
+        },
+        "entityInterruptColor": {
+            "java.awt.Color": {
+                "value": -4144960
+            }
+        },
+        "entityOccupiedColor1": {
+            "java.awt.Color": {
+                "value": -256
+            }
+        },
+        "entityOccupiedColor2": {
+            "java.awt.Color": {
+                "value": -16711936
+            }
+        },
+        "entityShadowColor": {
+            "java.awt.Color": {
+                "value": -4144960
+            }
+        },
+        "itemLineColor": {
+            "java.awt.Color": {
+                "value": -16777216
+            }
+        },
+        "itemFillColor": {
+            "java.awt.Color": {
+                "value": -4144960
+            }
+        },
+        "sdxpReportingPointColor": {
+            "java.awt.Color": {
+                "value": -16744193
+            }
+        },
+        "sdxpReportingPointScopeColor": {
+            "java.awt.Color": {
+                "value": -16725761
+            }
+        },
+        "sdxpDirectionMarkColor": {
+            "java.awt.Color": {
+                "value": -26368
+            }
+        },
+        "sdxpSegmentPointColor": {
+            "java.awt.Color": {
+                "value": -4727320
+            }
+        },
+        "sdxpSegmentPointScopeColor": {
+            "java.awt.Color": {
+                "value": -4271386
+            }
+        },
+        "sdxpPointOfInterestColor": {
+            "java.awt.Color": {
+                "value": -7155632
+            }
+        },
+        "sdxpActionPointColor": {
+            "java.awt.Color": {
+                "value": -39169
+            }
+        },
+        "buildNumber": 4001,
+        "lastViewportX": -11.74,
+        "lastViewportY": -2.17,
+        "lastViewportScale": 70.0,
+        "disableStatistics": false,
+        "saveDomainsSeparately": false
+    }
+}
