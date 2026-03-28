@@ -1,0 +1,9 @@
+{
+    "hostname": "localhost",
+    "port": "1433",
+    "listener": "",
+    "schema": "wls26_prod",
+    "username": "wls26_prod",
+    "password": "wls26_prod",
+    "db_type": "mssql"
+}
